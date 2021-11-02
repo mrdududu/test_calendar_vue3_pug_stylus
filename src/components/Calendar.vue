@@ -129,8 +129,6 @@ export default defineComponent({
     };
   },
 });
-
-// defineProps<{ initialYear?: number; initialMonth?: number }>();
 </script>
 
 <style lang="stylus" scoped>

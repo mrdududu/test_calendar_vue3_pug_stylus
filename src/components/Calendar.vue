@@ -32,14 +32,14 @@ export default defineComponent({
       default() {
         return new Date().getFullYear();
       },
-    },
+    } as const,
     initialMonth: {
       type: Number,
       required: false,
       default() {
         return new Date().getMonth();
       },
-    },
+    } as const,
   },
   setup(props) {
     const year = ref<number>(props.initialYear);
